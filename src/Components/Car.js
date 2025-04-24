@@ -6,4 +6,10 @@ function car(){
       </div>
   )
 }
+function Greeting({name,age}){
+  return(
+    <p>Hello My name is {name}! and my age is {age}</p>
+  )
+}
 export default car;
+export { Greeting };

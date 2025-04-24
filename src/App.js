@@ -1,12 +1,9 @@
-import './App.css';
-import Car from './Components/Car';
-import Bus from './Components/Bus';
-import Facts from './ReactFacts/reactfacts.jsx';
-import Apple from './Components/class component.js';
+import React from 'react';
+import Details from './Components/UserDetails'
 function App() {
   return (
     <div>
-      <Apple />
+      <Details name="John Doe" email="John@gmail.com" />
     </div>
   ); 
 }
