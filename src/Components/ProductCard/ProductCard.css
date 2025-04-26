@@ -1,0 +1,34 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Product-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Isavailable {
+  font-size: 1rem;
+  color: green;
+  margin-top: 5px;
+}
+
+.Product-Name{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.Product-Price{
+  font-size: 1.2rem;
+  color: #333;
+  margin: 5px 0;
+}
