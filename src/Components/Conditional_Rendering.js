@@ -8,4 +8,11 @@ function ConditionalRendering({userActive}){
       </div>
   )
 }
+
+function Issubcribe({Issubcribe}){
+  return(
+    <p>{Issubcribe?"Thank you for subscribing":"Please subscribe"}</p>
+  )
+}
+export {Issubcribe};
 export default ConditionalRendering;
