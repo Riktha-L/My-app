@@ -1,11 +1,10 @@
 import React from 'react';
-import {Students} from './Components/ClassList';
+import UserStatus from './Components/Test/test3'; 
 
 function App() {
   return (
-    <div>
-      <Students/>
-   </div>
+   <UserStatus status={true
+   } />
   );
 }
 
