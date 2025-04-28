@@ -1,12 +1,11 @@
 import React from 'react';
-import ConditionalRendering, { Issubcribe } from './Components/Conditional_Rendering';
+import {Students} from './Components/ClassList';
 
 function App() {
   return (
     <div>
-    <ConditionalRendering>userActive={true}</ConditionalRendering>
-    <Issubcribe>Issubcribe={true}</Issubcribe>
-    </div>
+      <Students/>
+   </div>
   );
 }
 

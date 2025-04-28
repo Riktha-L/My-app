@@ -9,10 +9,10 @@ function ConditionalRendering({userActive}){
   )
 }
 
-function Issubcribe({Issubcribe}){
+function Subcribe({issubcribe}){
   return(
-    <p>{Issubcribe?"Thank you for subscribing":"Please subscribe"}</p>
+    <p>{issubcribe?"Thank you for subscribing":"Please subscribe"}</p>
   )
 }
-export {Issubcribe};
+export {Subcribe};
 export default ConditionalRendering;
