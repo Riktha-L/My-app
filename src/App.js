@@ -1,11 +1,10 @@
 import React from 'react';
-import UserStatus from './Components/Test/test3'; 
+import Button from './Components/Inline Css practice/StyleButton';
 
 function App() {
   return (
-   <UserStatus status={true
-   } />
-  );
+   <Button/>
+  )
 }
 
 export default App;
