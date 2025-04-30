@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from './Components/Inline Css practice/StyleButton';
-
+import Counter from './Components/Hooks/Increment';
 function App() {
   return (
-   <Button/>
+    <Counter />
+
   )
 }
 
