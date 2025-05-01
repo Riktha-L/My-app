@@ -1,8 +1,8 @@
 import React from 'react';
-import ToggleMessage from './Components/ToggleMessage';
+import Scooter from './Components/Scooter';
 function App() {
   return (
-    <ToggleMessage />
+   <Scooter/>
   )
 }
 
