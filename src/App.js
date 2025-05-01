@@ -1,9 +1,8 @@
 import React from 'react';
-import Counter from './Components/Hooks/Increment';
+import ToggleMessage from './Components/ToggleMessage';
 function App() {
   return (
-    <Counter />
-
+    <ToggleMessage />
   )
 }
 
